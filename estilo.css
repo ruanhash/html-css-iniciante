@@ -1,0 +1,19 @@
+/*
+a{
+	color: red;
+	text-decoration: none;
+	font-size: 12px;
+}
+*/
+h1{
+	font-family: sans-serif;
+}
+/* hastag definem id, só pode haver um id*/
+#segundo{
+	color: red;
+}
+/* pontos definem class*/
+/* se usar estrutura como body p a.link apenas links dentro de body > p > a serão modificados*/
+a.link{
+	color: green;
+}
