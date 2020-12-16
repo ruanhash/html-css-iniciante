@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Trabalhando com formulários</title>
+		<meta charset = "utf-8"/>
+		<link rel="stylesheet" type="text/css" href="estilo3.css"/>
+	</head>
+		<!--contato.php tratar a informação mandadapor um formulario no arquivo contato
+		method="" é a forma como as informaçoes vão ser enviadas para a pagina que estiver destinada no atributo action, podendo ser "post" ou "get"
+		get - mostrar no endereço da pagina
+		post - envia as informaçoes em backgroud -->
+		<!-- botoes do tipo "radio" <input type="radio"/> s/n -->
+		<!-- botao tipo checkbox, botao de multipla marcação-->
+	<body>
+		<form action="" method="get">
+			<label for="nome">Nome:</label>
+			<input id="nome" type="text" placeholder="Digite seu nome" name="nome"/>
+			<label for="opcao">você gostou do site?</label>
+			<input type="radio" name="opcao" value="sim" checked="checked" />sim
+			<input type="radio" name="opcao" value="nao"/>nao
+			<label for="linguagem">Você quer aprender mais sobre:</label>
+			<input type="checkbox" name="html"/>HTML
+			<input type="checkbox" name="css"/>CSS
+			<textarea name="msg"></textarea>
+			<input type="submit" value="enviar"/>
+		</form>
+	</body>
+</html>
